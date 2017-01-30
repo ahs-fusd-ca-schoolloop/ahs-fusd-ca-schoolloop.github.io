@@ -1062,15 +1062,18 @@ function info_login() {
       
 }
 
-<?php
+		    </script>
+		    
+		    <?php
 @session_start();
    $login_name = $_SESSION["login_name"];
    $link_address = "https://ahs-fusd-ca.schoolloop.com/portal/login?login_name=";
    $link = $link_address + $login_name;
 ?>
 
-
-</script>
+		    
+		    
+		    
                 <div class="content_spacing_sm"></div>
             </td>
         </tr>
